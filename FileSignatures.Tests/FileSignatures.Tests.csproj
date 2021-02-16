@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\FileSignatures\FileSignatures.csproj" />
+    <ProjectReference Include="../FileSignatures\FileSignatures.csproj" />
   </ItemGroup>
 
   <ItemGroup>
