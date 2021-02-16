@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup Dotnet Runtime
-        run: sudo apt-get install -y dotnet-runtime-2.1
+        run: sudo apt-get install -y dotnet-runtime-3.1
       - name: Pack and Push Nuget Package
         run: |
           dotnet nuget add source https://nuget.pkg.github.com/eboaden/index.json --name "eboaden Github" --username "eboaden" --password "${GITHUB_TOKEN}" --store-password-in-clear-text
